@@ -1,0 +1,14 @@
+{
+  "name": "client_unit_test",
+  "version": "0.1.4",
+  "type": "module",
+  "description": "A Simple Unit testing library for creating client side unit test",
+  "scripts": {
+    "postinstall": "node ./index.js",
+    "prestart": "node ./index.js"
+  },
+  "repository": "https://github.com/CodingButter/client-unit-test.git",
+  "author": "Jamie Nichols <jamie337nichols@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
