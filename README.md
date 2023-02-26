@@ -35,6 +35,8 @@ const subSuite = "LDA"
 new Test(suite,subSuite,"One is One",function(){
     this.EXPECT_TRUE(1===1);
 });
+
+Test.run()
 ```
 
 In this example we are setting the Suite of the test to a Suite called CPU and a Subsuite of "LDA", Then giving it a descriptive name of One is One. this will give us an idea of what the expectations will be within the test itself.
